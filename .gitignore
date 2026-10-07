@@ -73,6 +73,8 @@ transformers_cache/
 # Generated AI Results
 # -------------------------
 results/
+!frontend/src/components/results/
+!frontend/src/components/results/Results.jsx
 outputs/
 generated/
 generated_images/
