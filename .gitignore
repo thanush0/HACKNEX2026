@@ -1,0 +1,199 @@
+# ============================================================
+# SCENERA - Generative Computer Vision & Scene Reconstruction
+# ============================================================
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# PyTest / Coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -------------------------
+# FastAPI / Application
+# -------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# -------------------------
+# AI Models / Hugging Face
+# -------------------------
+models/
+model/
+checkpoints/
+weights/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+# -------------------------
+# Generated AI Results
+# -------------------------
+results/
+outputs/
+generated/
+generated_images/
+generated_videos/
+
+# -------------------------
+# Uploaded Files
+# -------------------------
+uploads/
+uploaded/
+input/
+inputs/
+
+# Temporary processing files
+processing/
+frames/
+temp_frames/
+extracted_frames/
+
+# -------------------------
+# Video / Image Cache
+# -------------------------
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Ignore sample media folders
+samples/
+media/
+
+# -------------------------
+# Frontend - Node
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# Frontend Build
+# -------------------------
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# -------------------------
+# Frontend Environment
+# -------------------------
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# -------------------------
+# IDE - VS Code
+# -------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# -------------------------
+# Other IDEs
+# -------------------------
+.idea/
+*.iml
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# SQLite / Local DB
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# Cache
+# -------------------------
+.cache/
+.pyre/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------
+# Local test artifacts
+# -------------------------
+test_output/
+test_results/
+coverage/
+
+# -------------------------
+# Backup files
+# -------------------------
+*.bak
+*.backup
+*.tmp
+*~
+
+# -------------------------
+# ZIP / Archives
+# -------------------------
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# -------------------------
+# System files
+# -------------------------
+*.DS_Store
